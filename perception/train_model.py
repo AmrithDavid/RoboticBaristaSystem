@@ -180,9 +180,9 @@ def train_model(data_dir, output_dir, batch_size=32, num_epochs=20, learning_rat
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train a CNN classifier")
-    parser.add_argument("--data-dir", type=str, default="../data",
+    parser.add_argument("--data-dir", type=str, default="data",
                         help="Path to data directory containing 'train' and 'test' folders")
-    parser.add_argument("--output-dir", type=str, default="../models",
+    parser.add_argument("--output-dir", type=str, default="models",
                         help="Directory to save the trained model")
     parser.add_argument("--batch-size", type=int, default=32,
                         help="Batch size for training")
