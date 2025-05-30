@@ -44,7 +44,8 @@ python main.py # default
 ```
 
 ### Parameters
-
+| argument | Description | Desfault |
+| ----- | ----- | ----- |
 | `--model` | Path to trained perception model | "models/final_model.pth" |
 | `--images-dir` | Directory containing drink images | "data/true_test" |
 | `--orders` | Number of random orders to process | 2 |
