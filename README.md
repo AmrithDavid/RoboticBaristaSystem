@@ -28,11 +28,34 @@ See `requirements.txt` for a full list of dependencies.
 - `decision/` - Decision-making agent
 - `data/` - Training data and resources
 
-## Usage
+## Installation
 
 ```bash
 # Install dependencies
 pip install -r requirements.txt
+```
 
-# Run the complete system
+## Implementation
+
+Run the complete system from inputted images in a random order.
+
+```bash
+# default
 python main.py
+```
+
+### Parameters
+
+- **--model**:      Path to trained perception model    (default: "models/final_model.pth")
+- **--images-dir**: Directory containing drink images   (default: "data/true_test")
+- **--orders**:     Number of random orders to process  (default: 2)
+- **--keep-open**:  Keep simulation window open after processing
+
+>Examples
+
+```bash
+python main.py --model models\final_model.pth --images-dir data\true_test --orders 2 --keep-open
+
+python main.py --model models\best_model.pth --images-dir data\test\matcha --orders 3
+python main.py --model models\final_model.pth --images-dir data\test\coffee --orders 4
+```
