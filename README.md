@@ -40,18 +40,17 @@ pip install -r requirements.txt
 Run the complete system from inputted images in a random order.
 
 ```bash
-# default
-python main.py
+python main.py # default
 ```
 
 ### Parameters
 
-- **--model**:      Path to trained perception model    (default: "models/final_model.pth")
-- **--images-dir**: Directory containing drink images   (default: "data/true_test")
-- **--orders**:     Number of random orders to process  (default: 2)
-- **--keep-open**:  Keep simulation window open after processing
+| `--model` | Path to trained perception model | "models/final_model.pth" |
+| `--images-dir` | Directory containing drink images | "data/true_test" |
+| `--orders` | Number of random orders to process | 2 |
+| `--keep-open` | Keep simulation window open after processing | |
 
->Examples
+### Examples
 
 ```bash
 python main.py --model models\final_model.pth --images-dir data\true_test --orders 2 --keep-open
