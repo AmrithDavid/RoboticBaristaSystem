@@ -3,7 +3,8 @@
 ## Perception Model Training
 
 ```bash
-python perception\train_model.py --data-dir data --output-dir models\train_model.pth --epochs 100 --batch-size 50
+# Create your own model if required
+python perception\train_model.py --data-dir data --output-dir models\<model_name>.pth --epochs 100 --batch-size 50
 ```
 
 ## Perception System Test
@@ -20,5 +21,6 @@ python perception\evaluate_classifier.py --model models\final_model.pth --test-d
 ## Demostration
 
 ```bash
+# Mulitple images can be given to the system after the --images
 python perception\integrate.py --keep-open --model models\final_model.pth --images data\true_test\coffee_101.jpeg data\true_test\matcha_101.jpeg
 ```
