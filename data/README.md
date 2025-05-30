@@ -1,4 +1,6 @@
-# System Data
+# data
+
+The location for storing image datas.
 
 ## test
 
