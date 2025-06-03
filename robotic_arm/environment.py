@@ -100,12 +100,12 @@ class RoboticBaristaEnv:
     def _load_containers(self):
         """Create containers for coffee and matcha, and a cup"""
         # Container dimensions
-        container_size = [0.07, 0.07, 0.15]
+        container_size = [0.07, 0.07, 0.1]
         container_half_size = [s/2 for s in container_size]
         
         # Cup dimensions
         cup_radius = 0.05
-        cup_height = 0.1
+        cup_height = 0.08
         
         # Container positions - placed further apart
         self.coffee_position = [0.5, 0.5, self.table_height + container_size[2]/2]  # Further away
