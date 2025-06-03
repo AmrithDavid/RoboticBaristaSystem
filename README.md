@@ -30,10 +30,10 @@ See `requirements.txt` for a full list of dependencies.
 
 ## Group Information
 ### Group 15 - Coffee
-Amrith David (14266415)
-Rachel Nguyen (141371196)
-Shing Hin Yuen (24544963)
-Zubayr Parker (14268231)
+Amrith David (14266415)  
+Rachel Nguyen (141371196)  
+Shing Hin Yuen (24544963)  
+Zubayr Parker (14268231)  
 John Lim (12050326)
 
 ## Installation
