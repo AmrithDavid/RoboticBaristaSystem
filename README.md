@@ -29,7 +29,7 @@ See `requirements.txt` for a full list of dependencies.
 - `data/` - Training data and resources
 
 ## Group Information
-Group 15 - Coffee
+### Group 15 - Coffee
 Amrith David (14266415)
 Rachel Nguyen (141371196)
 Shing Hin Yuen (24544963)
