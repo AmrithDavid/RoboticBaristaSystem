@@ -37,7 +37,7 @@ def main(args):
     # Build integrate.py command
     cmd = [
         sys.executable,  # Use same Python interpreter
-        "perception\\integrate.py",
+        "perception\integrate.py",
         "--model", args.model,
         "--images"
     ]
